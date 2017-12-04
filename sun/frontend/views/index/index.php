@@ -54,11 +54,11 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="agents.php">Agents</a></li>         
-                <li><a href="blog.php">Blog</a></li>
-                <li><a href="contact.php">Contact</a></li>
+               <li class="active"><a href="index.php">主页</a></li>
+                <li><a href="about.php">关于我们</a></li>
+                <li><a href="agents.php">代理</a></li>         
+                <li><a href="blog.php">博客</a></li>
+                <li><a href="contact.php">联系我们</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
@@ -80,9 +80,9 @@
 <a href="index.php"><img src="images/logo.png" alt="Realestate"></a>
 
               <ul class="pull-right">
-                <li><a href="buysalerent.php">Buy</a></li>
-                <li><a href="buysalerent.php">Sale</a></li>         
-                <li><a href="buysalerent.php">Rent</a></li>
+                <li><a href="buysalerent.php">购买</a></li>
+                <li><a href="buysalerent.php">拍卖</a></li>         
+                <li><a href="buysalerent.php">出租</a></li>
               </ul>
 </div>
 <!-- #Header Starts -->
@@ -174,7 +174,7 @@
 <div class="banner-search">
   <div class="container"> 
     <!-- banner -->
-    <h3>Buy, Sale & Rent</h3>
+    <h3>购买，出售和出租</h3>
     <div class="searchbar">
       <div class="row">
         <div class="col-lg-6 col-sm-6">
@@ -212,8 +212,8 @@
           
         </div>
         <div class="col-lg-5 col-lg-offset-1 col-sm-6 ">
-          <p>Join now and get updated with all the properties deals.</p>
-          <button class="btn btn-info"   data-toggle="modal" data-target="#loginpop">Login</button>        </div>
+          <p>立即加入，并获得所有属性交易的更新。</p>
+          <button class="btn btn-info"   data-toggle="modal" data-target="#loginpop">登录</button>        </div>
       </div>
     </div>
   </div>
@@ -452,7 +452,7 @@
         <div class="col-sm-6">
           <h4>New User Sign Up</h4>
           <p>Join today and get updated with all the properties deal happening around.</p>
-          <button type="submit" class="btn btn-info"  onclick="window.location.href='register.php'">Join Now</button>
+          <button type="submit" class="btn btn-info"  onclick="window.location.href='?r=index/register'">Join Now</button>
         </div>
 
       </div>
